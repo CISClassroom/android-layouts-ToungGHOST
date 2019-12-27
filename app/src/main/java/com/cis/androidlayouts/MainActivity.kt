@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         button.setOnClickListener(){
-            val i =Intent(this,Relative::class.java)
+            val i =Intent(this,Linaer::class.java)
             startActivity(i)
         }
         button1.setOnClickListener(){
@@ -21,6 +21,10 @@ class MainActivity : AppCompatActivity() {
         }
         button2.setOnClickListener(){
             val i =Intent(this,Constainlaout::class.java)
+            startActivity(i)
+        }
+        button5.setOnClickListener(){
+            val i = Intent(this,Profile::class.java)
             startActivity(i)
         }
     }
